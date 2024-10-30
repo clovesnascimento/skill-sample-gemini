@@ -1,0 +1,12 @@
+{
+  "name": "gemini-skill",
+  "version": "1.0.0",
+  "description": "Alexa Skill integrada ao Gemini",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "ask-sdk-core": "^2.10.0"
+  }
+}

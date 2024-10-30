@@ -1,0 +1,37 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "assistente gemini",
+      "intents": [
+        {
+          "name": "PerguntarIntent",
+          "samples": [
+            "Pergunte ao Gemini",
+            "Converse com o assistente da Google",
+            "Peça ao Gemini para me ajudar",
+            "Pergunte algo ao Gemini"
+          ],
+          "slots": [
+            {
+              "name": "message",
+              "type": "AMAZON.SearchQuery"
+            }
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        }
+      ],
+      "types": []
+    }
+  }
+}

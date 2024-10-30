@@ -1,0 +1,33 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "pt-BR": {
+          "summary": "Skill que se comunica com o Gemini da Google.",
+          "examplePhrases": [
+            "Alexa, pergunte ao assistente Gemini"
+          ],
+          "keywords": [
+            "assistente",
+            "Gemini",
+            "Google"
+          ],
+          "name": "Assistente Gemini",
+          "description": "Skill Alexa integrada ao modelo Gemini da Google"
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Diga 'Alexa, pergunte ao assistente Gemini'",
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda"
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}
